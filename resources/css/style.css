@@ -1,3 +1,5 @@
+
+
 html, body {
   font-size: 18px;
   font-family: Helvetica;
@@ -35,3 +37,30 @@ h1 {
 }
 
 /**** Main Banner ****/
+
+.main-banner {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+}
+
+.headline {
+  background: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 9rem;
+  padding: 2rem 0;
+  width: 20rem;
+}
+
+.headline h4 {
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 0.25rem;
+}
+
+.headline h1 {
+  margin-left: 3rem;
+}
