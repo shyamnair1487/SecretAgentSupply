@@ -149,3 +149,11 @@ h1 {
 .title span {
   margin-left: 2rem;
 }
+
+footer {
+  background: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
