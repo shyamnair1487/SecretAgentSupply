@@ -85,3 +85,32 @@ h1 {
 #mobile-nav {
   display: none;
 }
+
+/*Products*/
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 4px solid black;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+}
+
+.product-image img {
+  height: 9rem;
+  width: 60%;
+  margin: 2rem auto;
+}
