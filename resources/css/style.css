@@ -11,3 +11,25 @@ h1 {
   width: 960px;
   margin: 0 auto;
 }
+
+/*** Company Header ***/
+
+.logo {
+  background: black;
+  color: white;
+}
+
+.logo .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.logo span {
+  margin: 0.66rem 0;
+}
