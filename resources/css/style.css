@@ -84,7 +84,8 @@ h1 {
 
 #mobile-nav {
   display: none;
-
+  padding-top: 0.01rem;
+  padding-bottom: 0.01rem;
 }
 
 /*Products*/
@@ -168,8 +169,7 @@ footer {
 
   #mobile-nav {
     display: block;
-    padding-top: 0.01rem;
-    padding-bottom: 0.01rem;
+
     text-align: center;
   }
 
@@ -184,5 +184,54 @@ footer {
 
 
 @media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+
+  .headline {
+    margin-top: 10rem;
+    padding-right: 5.6rem;
+    font-family: Helvetica;
+    font-weight: bold;
+
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+    margin-left: 2rem;
+
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+
+  .products {
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .location {
+    flex-direction: column;
+    max-width: 470px;
+    margin-bottom: 4rem;
+  }
+
+  .info {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 0.5rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
 
 }
