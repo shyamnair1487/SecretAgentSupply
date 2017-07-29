@@ -64,3 +64,24 @@ h1 {
 .headline h1 {
   margin-left: 3rem;
 }
+
+/*Nav*/
+
+.nav {
+  background: firebrick;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+#mobile-nav {
+  display: none;
+}
