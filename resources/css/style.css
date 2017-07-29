@@ -84,6 +84,7 @@ h1 {
 
 #mobile-nav {
   display: none;
+
 }
 
 /*Products*/
@@ -156,4 +157,27 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+}
+
+/*** Media Queries ***/
+
+@media only screen and (max-width: 1024px) {
+  .nav ul {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+    padding-top: 0.01rem;
+    padding-bottom: 0.01rem;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
 }
