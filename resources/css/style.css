@@ -122,3 +122,30 @@ h1 {
   width: 100%;
   padding: 0.5rem 0;
 }
+
+/*Location*/
+
+.location {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: left;
+  padding-bottom: 4rem;
+}
+
+.title {
+  background: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title span {
+  margin-left: 2rem;
+}
